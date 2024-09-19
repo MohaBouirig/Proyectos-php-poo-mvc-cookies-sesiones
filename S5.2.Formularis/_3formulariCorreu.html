@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formualri correu</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+</head>
+<body>
+	<form action="_3enviarCorreu.php" method="POST">
+		<p>
+			<label for="non">Nom:</label><br/>
+			<input type="text" size="25" id="nom" name="nom"/>
+		</p>
+		<p>
+			<label for="correu">Adreça de correu:</label><br/>
+			<input type="text" size="25" id="correu" name="correu"/>
+		</p>
+		<p>
+			<label for="missatge">Missatge:</label><br/>
+			<textarea id="missatge" name="missatge" cols="30" rows="5"></textarea>
+		</p>
+		<button type="submit" name="enviar" value="enviar">Enviar missatge</button>
+	</form>
+</body>
+</html>
